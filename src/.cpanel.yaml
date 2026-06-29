@@ -1,0 +1,4 @@
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home1/makfr3a9/public_html/event/
+    - /bin/cp -R dist/* $DEPLOYPATH
